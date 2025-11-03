@@ -1,0 +1,10 @@
+{
+  "name": "close-tab-extension",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@10.20.0",
+  "devDependencies": {
+    "@types/firefox-webext-browser": "^143.0.0",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Close Tab",
+  "version": "1.0.0",
+  "description": "Adds a toolbar button that closes the current tab when clicked.",
+  "icons": {
+    "32": "icon.svg",
+    "64": "icon.svg"
+  },
+  "action": {
+    "default_title": "Close Current Tab",
+    "theme_icons": [
+      {
+        "dark": "icon-dark.svg",
+        "light": "icon.svg",
+        "size": 16
+      },
+      {
+        "dark": "icon-dark.svg",
+        "light": "icon.svg",
+        "size": 32
+      }
+    ]
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
